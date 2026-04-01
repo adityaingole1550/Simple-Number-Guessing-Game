@@ -1,5 +1,4 @@
-// let gameNumber = Math.floor(Math.random() * 100) + 1;
-let gameNumber = 77; // For testing purposes, you can set a fixed number
+let gameNumber = Math.floor(Math.random() * 100) + 1; // This will generate a random number between 1 and 100 
 let n= prompt("Guess the number between 1 to 100");
 while (n != gameNumber) {
     if (n < gameNumber) {
